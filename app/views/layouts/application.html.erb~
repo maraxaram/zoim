@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>zoim</title>
+  <title>Mone</title>
  <%= csrf_meta_tag %>
 <%= render 'layouts/stylesheets' %>
 </head>
@@ -10,14 +10,13 @@
 <div class="container">
   
   <div class="container_i">     
-      <%= render 'layouts/resultdisplay3' %>
+      <%= render 'layouts/resultdisplay2' %>
   </div>
 
 
     <div class="container_i1">
       <section class="round">
         <%= yield %>
-        
       </section>
      
 <div class="resultlist">
