@@ -1,0 +1,96 @@
+.container {
+  width: span-14 last;
+background: #cff;
+}
+
+
+.container_i {
+  width: span-4 last;
+}
+
+.container_i1 {
+  width: span-4;
+height: 400px;
+}
+
+.container_i2 {
+  width: span-14 last;
+}
+
+.showgrid { 
+  background: url(src/grid.png); 
+}
+
+body {
+  background: #cff;
+}
+
+header {
+  padding-top: 20px;
+}
+
+header img {
+  padding: 1em;
+  background: #fff;
+}
+
+section {
+  float: left;
+  text-align: center;
+  height: 360px;
+  width: 320px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: 30px;
+  margin-bottom: 30px;  
+  font-size: 120%;
+  padding: 20px;
+  background: #fff;
+}
+
+section h1 {
+  font-size: 200%;
+}
+
+/* Links */
+
+a {
+  color: #09c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #069;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #069;
+}
+
+
+/* Resultlist */
+resultlist {
+  float: left;
+  text-align: center;
+  background: #fff;  
+  width: 340px;
+  height: 360px;
+  margin-top: 30px;  
+  margin-bottom: 30px;   
+  margin-left: 30px;
+  margin-right: 30px;  
+  font-size: 120%;
+  padding: 20px;
+}
+
+/* Resultgraph */
+resultdisplay {
+  float: right;  
+  text-align: center;
+  margin-top: 100px;
+  width: 400px;
+  height: 300px;
+  margin-left: 30px;
+  margin-right: auto;
+}
